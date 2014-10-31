@@ -137,6 +137,7 @@ OBJS= \
     obj/rpcwallet.o \
     obj/rpcblockchain.o \
     obj/rpcrawtransaction.o \
+	obj/rpcsmessage.o \
     obj/script.o \
     obj/sync.o \
     obj/util.o \
@@ -159,7 +160,7 @@ OBJS= \
     obj/zerocoin/SerialNumberSignatureOfKnowledge.o \
     obj/zerocoin/SpendMetaData.o \
     obj/smessage.o \
-    obj/stealth.o 
+    obj/stealth.o \ 
     obj/zerocoin/ZeroTest.o
 
 all: IncogCoind
